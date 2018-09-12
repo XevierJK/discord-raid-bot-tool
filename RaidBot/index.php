@@ -10,10 +10,10 @@
 <div class="container">
   <div class="panel-group">
 	<p id="response"></p>
-	<p id="sending">Wait a few seconds...</p>
+	<p id="sending">SENDING REQUEST TO API.PHP</p>
     <div class="panel panel-primary">
       <div class="panel-heading">Razor's RaidBot!</div>
-	  Click this "Load Tokens" Button to make the Accounts Ready!
+	  Click this "Load Tokens" Button to make the Accounts Ready! NOTE: You dont have to enter an Invite Code if the Accounts are already in the Server!
 	  <br>
 		<button onclick="load()">Load Tokens</button><br>
 		<br>
@@ -27,8 +27,7 @@
 		<input id="id" placeholder="channel id"><br>
 		<input id="message" placeholder="message"><br>
 		<button onclick="spam();">Spam Message</button><br>
-		
-		NOTE: You dont have to enter an Invite Code if the Accounts are already in the Server!
+		Also: Spam the "Spam Message" Button to Spam faster, that might get the accounts banned faster tho!
 
 	  </div>
     </div>
